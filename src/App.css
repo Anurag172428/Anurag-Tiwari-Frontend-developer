@@ -1,0 +1,139 @@
+.App {
+	text-align: center;
+	color: Green;
+}
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+
+body{
+    
+    text-align: center !important;
+	background-image:url(https://a5theory.com/spaceximg/content.jpg);
+
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 464px)and (min-width: 300px) {   
+	
+	.ui.icon.input>input {
+		max-width: fit-content !important;
+		width:auto !important;
+	}
+	
+	div.container.ui.icon.input{
+		flex-direction: column !important;
+		text-align: center !important;
+		-ms-flex-align: center !important;
+		width: fit-content !important;
+		flex-flow: column !important;
+		text-align: center !important;
+	}
+	.ui.five.cards>.card{
+		width: fit-content !important; 
+		flex-direction: column !important;
+		flex-flow: column !important;
+		text-align: center !important;
+		margin-left: 25px !important;
+		margin-right: 25px !important;
+		
+	}
+	div.row{
+		text-align: center !important;
+	}
+}
+.ui.card, .ui.cards>.card{
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  flex-flow: wrap !important;
+  background-color: #FAFAF0;
+  z-index: -30;
+  text-align: center !important;
+  background-color: lightcoral;
+  background: transparent;
+}
+.spacexhead {
+		height: 40vh;
+	margin-bottom: 20px;
+	width:100%;
+	background-image:url(https://a5theory.com/spaceximg/capsule-head-banner.png);
+	color:white;
+	opacity: 0.7;
+	}
+	.ui.icon.input>input {
+		padding-right: 28.671429em!important;
+		line-height: 2.214286em;
+background-color: rgb(0, 162, 255);
+background-image:url(https://a5theory.com/spaceximg/search.jpg);
+
+
+	}
+	.ui.card>.content{
+		font-size: 16px !important;
+		text-align: justify;
+	}
+	input::placeholder{
+		font-size: 15px;
+		font-weight: bolder;
+	}
+	.banhead{
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding-top: 78px;
+	color: #194de9;
+	
+	}
+	
+	.banhead
+	{
+	   text-transform: uppercase;
+	  background-image: linear-gradient(
+		-225deg,
+		#231557 0%,
+		#44107a 29%,
+		#ff1361 67%,
+		#fff800 100%
+	  );
+	  background-size: auto auto;
+	  background-clip: border-box;
+	  background-size: 200% auto;
+	  color: #fff;
+	  background-clip: text;
+	  text-emphasis-color: transparent;
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  animation: textclip 2s linear infinite;
+	  display: inline-block;
+		  font-size: 80px;
+	}
+	
+	@keyframes textclip {
+	  to {
+		background-position: 200% center;
+	  }
+	}
+
+	
+	
