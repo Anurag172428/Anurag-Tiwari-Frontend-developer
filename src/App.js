@@ -10,7 +10,7 @@ export default function Posts() {
     const [filteredResults, setFilteredResults] = useState([]);
     const [searchInput, setSearchInput] = useState('');
     useEffect(() => {
-        axios.get(`https://a5theory.com/spacex/read`)
+        axios.get(`https://a5theory.com/spacex`)
             .then((response) => {
                 setAPIData(response.data);
             })
